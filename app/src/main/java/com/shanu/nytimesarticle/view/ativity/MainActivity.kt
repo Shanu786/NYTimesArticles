@@ -1,7 +1,8 @@
-package com.shanu.nytimesarticle
+package com.shanu.nytimesarticle.view.ativity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.shanu.nytimesarticle.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
