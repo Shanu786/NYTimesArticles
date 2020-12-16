@@ -1,9 +1,9 @@
 package com.shanu.nytimesarticle.view.activity
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
@@ -40,7 +40,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
         NavigationUI.setupActionBarWithNavController(this, navController!!, drawerLayout)
         NavigationUI.setupWithNavController(navView, navController!!)
-//        onNavigationItemSelected(navView.menu.getItem(0))
         navView.setNavigationItemSelectedListener(this)
     }
 
