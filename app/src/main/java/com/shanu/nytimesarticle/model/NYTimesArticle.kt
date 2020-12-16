@@ -2,8 +2,6 @@ package com.shanu.nytimesarticle.model
 
 import com.google.gson.annotations.SerializedName
 
-//5UmSGcCd16oAiayp7KeeXAqIwiAOQNxn
-
 data class NYTimesArticle(
     @SerializedName("copyright")
     var copyright: String? = null,
