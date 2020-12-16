@@ -1,3 +1,4 @@
+package com.shanu.nytimesarticle.model
 
 import com.google.gson.annotations.SerializedName
 

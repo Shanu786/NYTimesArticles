@@ -1,6 +1,6 @@
 package com.shanu.nytimesarticle.retrofit.api
 
-import NYTimesArticle
+import com.shanu.nytimesarticle.model.NYTimesArticle
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Headers
