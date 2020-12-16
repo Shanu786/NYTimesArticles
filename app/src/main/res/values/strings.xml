@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">NY Times Most Popular Articles</string>
     <string name="splash_title_name">NY Times Most Popular Articles</string>
+    <string name="connection_unavailable_desc">Connection is not available</string>
 </resources>

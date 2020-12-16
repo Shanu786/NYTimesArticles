@@ -30,12 +30,26 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+
+    flavorDimensions "NY Times Most Popular Articles"
+    productFlavors {
+        dev {
+            dimension "NY Times Most Popular Articles"
+            buildConfigField 'String', 'BASE_URL', '"http://api.nytimes.com/svc/mostpopular/v2"'
+            buildConfigField 'boolean', 'IS_LOG', 'true'
+            buildConfigField 'long', 'CONNECTION_TIMEOUT', '1000L'
+            buildConfigField 'long', 'READ_TIMEOUT', '600L'
+            buildConfigField 'long', 'WRITE_TIMEOUT', '600L'
+        }
     }
 }
 
@@ -56,6 +70,9 @@ dependencies {
 
     // Retrofit Library
     implementation 'com.squareup.retrofit2:retrofit:2.6.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.0'
+
+    //GSON Converter Library
     implementation 'com.squareup.retrofit2:converter-gson:2.6.0'
 
     // Kotlin Coroutines
