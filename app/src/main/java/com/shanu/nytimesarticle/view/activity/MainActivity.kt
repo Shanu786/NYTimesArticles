@@ -1,4 +1,4 @@
-package com.shanu.nytimesarticle.view.ativity
+package com.shanu.nytimesarticle.view.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

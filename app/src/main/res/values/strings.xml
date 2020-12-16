@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">NYTimesArticle</string>
+    <string name="app_name">NY Times Most Popular Articles</string>
+    <string name="splash_title_name">NY Times Most Popular Articles</string>
 </resources>
