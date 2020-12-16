@@ -38,11 +38,12 @@ class SplashScreen : AppCompatActivity() {
                 or View.SYSTEM_UI_FLAG_FULLSCREEN)
     }
 
-    private var mRunnable : Runnable = Runnable {
+    private var mRunnable: Runnable = Runnable {
         if (!isFinishing) {
             val startMainActivity = Intent(applicationContext, MainActivity::class.java)
             startActivity(startMainActivity)
             finish()
         }
     }
+
 }
