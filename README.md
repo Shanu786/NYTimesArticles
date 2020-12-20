@@ -44,7 +44,7 @@ This is a simple app to hit the NY Times Most Popular Articles API and show a li
     
 '''
     
-    ##### Llibraries or tools Used.
+    ### Libraries or tools Used.
     - MVVM Architecture
     - Retrofit, OkHttp
     - Gson
