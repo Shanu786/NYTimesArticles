@@ -42,9 +42,9 @@ This is a simple app to hit the NY Times Most Popular Articles API and show a li
     implementation "com.squareup.okhttp3:logging-interceptor:$okhttp"
     implementation "com.squareup.okhttp3:okhttp:$okhttp"
     
-    ''''
+'''
     
-    ### Llibraries or tools Used.
+    ##### Llibraries or tools Used.
     - MVVM Architecture
     - Retrofit, OkHttp
     - Gson
