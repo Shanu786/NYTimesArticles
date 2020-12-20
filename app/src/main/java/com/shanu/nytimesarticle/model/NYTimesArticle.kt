@@ -10,13 +10,13 @@ data class NYTimesArticle(
     var numResults: Int? = null,
 
     @SerializedName("results")
-    var results: List<Result>? = null,
+    var results: MutableList<ArticleResult>? = null,
 
     @SerializedName("status")
     var status: String? = null
 )
 
-data class Result(
+data class ArticleResult(
     @SerializedName("abstract")
     var abstract: String? = null,
 

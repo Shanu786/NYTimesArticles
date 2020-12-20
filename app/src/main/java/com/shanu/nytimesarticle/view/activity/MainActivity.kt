@@ -13,9 +13,12 @@ import androidx.navigation.ui.NavigationUI
 import com.google.android.material.navigation.NavigationView
 import com.shanu.nytimesarticle.R
 import kotlinx.android.synthetic.main.content_main.*
+import org.kodein.di.KodeinAware
+import org.kodein.di.android.kodein
 
-class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+class MainActivity : KodeinAware, AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
+    override val kodein by kodein()
     lateinit var toolBar: Toolbar
     lateinit var drawerLayout: DrawerLayout
     private lateinit var navView: NavigationView

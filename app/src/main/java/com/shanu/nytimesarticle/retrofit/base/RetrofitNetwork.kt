@@ -14,8 +14,7 @@ class RetrofitNetwork {
     companion object {
 
         private const val NETWORK_CALL_TIMEOUT = 60
-        private const val BASE_URL = "http://api.nytimes.com/svc/mostpopular/v2";
-
+        private const val BASE_URL = "http://api.nytimes.com/";
         //You can add cache history below are the params
         // @application.cacheDir,
         // @10 * 1024 * 1024  (10MB)
