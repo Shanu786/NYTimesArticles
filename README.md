@@ -3,7 +3,7 @@
 New York Times Most Popular API Integration
 --------------------------------------------
 
-This is a simple app to hit the NY Times Most Popular Articles API and show a list of articles, that shows details when items on the list are tapped (a typical master/detail app).
+This is a simple app to hit the NY Times Most Popular Articles API and show a list of articles, that shows details when items on the list are tapped (a typical master/detail app). 
 
 ###### build.gradle application module level
 ```
@@ -43,8 +43,11 @@ This is a simple app to hit the NY Times Most Popular Articles API and show a li
     implementation "com.squareup.okhttp3:okhttp:$okhttp"
     
 '''
+
+### Language Used
+- Kotlin
     
-    ### Libraries or tools Used.
+### Libraries or tools Used.
     - MVVM Architecture
     - Retrofit, OkHttp
     - Gson
