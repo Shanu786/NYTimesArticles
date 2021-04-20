@@ -44,7 +44,7 @@ This is a simple app to hit the NY Times Most Popular Articles API and show a li
     
 ```
 
-### IDE Used
+### IDE Required
 - Android Studio 4.1 or above
 
 ### Language Used
