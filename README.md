@@ -5,7 +5,7 @@ New York Times Most Popular API Integration
 
 This is a simple app to hit the NY Times Most Popular Articles API and show a list of articles, that shows details when items on the list are tapped (a typical master/detail app). 
 
-###### build.gradle application module level
+### build.gradle application module level
 ```
     def lifecycle_version = "2.2.0"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
@@ -44,15 +44,18 @@ This is a simple app to hit the NY Times Most Popular Articles API and show a li
     
 ```
 
+### IDE Used
+- Android Studio 4.1 or above
+
 ### Language Used
 - Kotlin
     
-### Libraries or tools Used.
-    - MVVM Architecture
-    - Retrofit, OkHttp
-    - Gson
-    - Kodein Dependency Injection
-    - Live Data
-    - Data Binding
-    - Use of Jetpack components(Navigation Graph)
+### Libraries or tools Used
+- MVVM Architecture
+- Retrofit, OkHttp
+- Gson
+- Kodein Dependency Injection
+- Live Data
+- Data Binding
+- Use of Jetpack components(Navigation Graph)
     
