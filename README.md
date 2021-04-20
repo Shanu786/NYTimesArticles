@@ -58,4 +58,3 @@ This is a simple app to hit the NY Times Most Popular Articles API and show a li
 - Live Data
 - Data Binding
 - Use of Jetpack components(Navigation Graph)
-    
